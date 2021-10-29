@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title> Vehicle Registration </title>
+	
+	<script>
+	
+	
+	
+		function makePostRequest() {
+				
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == XMLHttpRequest.DONE) {
+					alert(xhr.responseText);
+				}
+			}
+			xhr.open('GET', 'http://localhost:8080/getVehicles/1HGCG1659WA029633', true);
+			xhr.setRequestHeader('Content-Type', 'application/xml');
+			xhr.setRequestHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT");
+			xhr.setRequestHeader("Access-Control-Allow-Origin", "http://localhost:8080");
+			xhr.send(null);
+
+}
+	
+	</script>
+
+<body>
+
+	<h2 align="center">Vehicle Registration Form</h2>
+
+	<div align="center">
+
+		<form >
+
+			<div class="form-group">
+				<label>First Name</label> <input type="text" name="fname"><br>
+				<br> <label>Last Name</label> <input type="text" name="lname"><br>
+				<br> <label>License Number</label><input type="text"
+					name="dlnumber"><br> <br>
+
+
+			</div>
+			<div class="btn-layer">
+				<input type="submit" value="submit" id="submit-form" onclick = "makePostRequest()">
+			</div>
+		</form>
+
+
+	</div>
+</body>
+</head>
+</html>

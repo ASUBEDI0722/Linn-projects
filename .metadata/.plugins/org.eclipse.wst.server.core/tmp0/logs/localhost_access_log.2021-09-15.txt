@@ -1,0 +1,13 @@
+127.0.0.1 - - [15/Sep/2021:00:38:16 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:38:16 -0500] "GET /CustomerPortal_AS/customer.html HTTP/1.1" 200 1467
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:38:16 -0500] "GET /CustomerPortal_AS/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:38:16 -0500] "GET /CustomerPortal_AS/customer.js HTTP/1.1" 200 1757
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:38:35 -0500] "POST /CustomerPortal_AS/CustomerPortal HTTP/1.1" 200 392
+127.0.0.1 - - [15/Sep/2021:00:55:40 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:55:52 -0500] "POST /CustomerPortal_AS/CustomerPortal HTTP/1.1" 200 404
+127.0.0.1 - - [15/Sep/2021:00:59:39 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:00:59:40 -0500] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [15/Sep/2021:11:41:51 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:11:41:51 -0500] "GET /CustomerPortal_AS/customer.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Sep/2021:11:41:51 -0500] "GET /CustomerPortal_AS/customer.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Sep/2021:11:42:36 -0500] "GET / HTTP/1.1" 404 751
